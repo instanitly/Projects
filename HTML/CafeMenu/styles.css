@@ -1,0 +1,94 @@
+
+body {
+    background-image: url(images/background.png);
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+hr {
+    border: 2px solid gold;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p:hover {
+    color: gold;
+}
+
+footer p:active {
+    color: gold;
+}
+
+footer p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container-coffees, .container-cold-coffees {
+    display: inline-block;
+    width: 40%;
+    margin-right: 19%;
+}
+
+.container-coffees h2, .container-cold-coffees h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: gold;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-snacks, .container-desserts {
+    display: inline-block;
+    width: 40%;
+}
+
+.container-snacks h2, .container-desserts h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: gold;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.flavor {
+    text-align: left;
+    width: 50%;
+}
+
+.price {
+    text-align: right;
+    width: 50%;
+}
+
+.menu {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
